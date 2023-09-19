@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+.courseMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 30px;
+  height: 500px;
+  text-align: justify;
+}
+
+.cardPrice {
+  font-style: italic;
+  color: green;
+}
+
+.cardDelete {
+  width: 200px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: crimson;
+  color: aliceblue;
+  margin-bottom: 4px;
+}
+
+.refleshDiv {
+  text-align: center;
+}
+
+.cardReflehBtn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(88, 103, 4);
+  color: aliceblue;
+}
+
+.fa {
+  border: none;
+  background-color: #242424;
+  font-size: 20px;
+  color: white;
+}
